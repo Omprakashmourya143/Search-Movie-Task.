@@ -1,4 +1,4 @@
-// src/services/api.js
+
 const API_KEY = 'b48b07c1'; // API key
 const BASE_URL = 'http://www.omdbapi.com/';
 
