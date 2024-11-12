@@ -1,6 +1,6 @@
-// src/components/MovieDetail.jsx
+
 import React, { useEffect, useState } from 'react';
-import { fetchMovieDetails } from '../services/api'; // Make sure the path is correct
+import { fetchMovieDetails } from '../services/api';
 
 const MovieDetail = ({ id }) => {
   const [movie, setMovie] = useState(null);
