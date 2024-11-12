@@ -1,4 +1,4 @@
-// src/pages/MovieDetailPage.js
+
 import React from 'react';
 import MovieDetail from '../components/MovieDetail';
 
