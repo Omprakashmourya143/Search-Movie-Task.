@@ -5,7 +5,7 @@ const SearchBar = ({ searchTerm, setSearchTerm, handleSearch }) => {
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="border rounded-lg p-2 w-1/2 md:w-1/3"
+          className="border rounded-lg p-2 w-1/2 md:w-1/3 ml-2"
           placeholder="Search for movies..."
         />
         <button
